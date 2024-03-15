@@ -1,0 +1,30 @@
+{
+  "name": "verdient/infrastructure",
+  "description": "Infrastructure",
+  "type": "library",
+  "keywords": [
+    "Infrastructure"
+  ],
+  "homepage": "https://github.com/Verdient/infrastructure",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Verdient.",
+      "email": "fagui.zhu@foxmail.com",
+      "homepage": "https://github.com/Verdient"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/Verdient/infrastructure/issues",
+    "source": "https://github.com/Verdient/infrastructure"
+  },
+  "require": {
+    "php": ">=7.0.0",
+    "verdient/http-api": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Verdient\\Infrastructure\\": "src"
+    }
+  }
+}
